@@ -3,7 +3,7 @@ void main(List<String> args) {
   print(name);
 
   String? favoriteFood = null;
-  // ! dipaksa idak null
+  // ! dipaksa tidak null
   buyAMeal(favoriteFood!); //compile Error
 }
 
