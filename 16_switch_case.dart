@@ -53,4 +53,31 @@ void main(List<String> args) {
     default:
       print('ga ada harinya');
   }
+
+  var Menu = 'Nasi Goreng';
+
+  switch (Menu) {
+    case 'Nasi Goreng':
+      print('Nasi Goreng');
+      print('Rp20.000');
+      break;
+    case 'Mie Ayam':
+      print('Mie Ayam');
+      print('Rp15.000');
+      break;
+    case 'Ayam Geprek':
+      print('Ayam Geprek');
+      print('Rp35.000');
+      break;
+    case 'Es Teh':
+      print('Es Teh');
+      print('Rp5.000');
+      break;
+    case 'Air Mineral':
+      print('Air Mineral');
+      print('Rp3.000');
+      break;
+    default:
+      print('MENU BELUM TERSEDIA');
+  }
 }
